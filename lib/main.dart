@@ -1,4 +1,5 @@
-import 'package:create_random_shape/screens/main_screen.dart';
+
+import 'package:create_random_shape/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Random Shape Generator',
       debugShowCheckedModeBanner: false,
-      home: MainScreen(),
+      home: SplashScreen(),
     );
   }
 }
