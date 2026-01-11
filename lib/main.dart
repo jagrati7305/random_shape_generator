@@ -1,3 +1,4 @@
+import 'package:create_random_shape/screens/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Random Shape Generator',
-      home: Scaffold(),
+      debugShowCheckedModeBanner: false,
+      home: MainScreen(),
     );
   }
 }
